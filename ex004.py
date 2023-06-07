@@ -2,7 +2,8 @@
 
 n = input('digite algo:')
 print(type(n))
-print (n.isalpha())
-print (n.islower())
-print (n.isdecimal())
-print (n.istitle())
+print ('É alfanumérico ?',n.isalpha())
+print ('É minúsculo ?', n.islower())
+print ('É decimal ?',n.isdecimal())
+print ('É um título ?',n.istitle())
+
