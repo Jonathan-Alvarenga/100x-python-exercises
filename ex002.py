@@ -1,4 +1,4 @@
 # Escreva uma mensagem de boas-vindas
 
-n = input('digite seu nome')
-print('Bem-vindo {} !'.format(n) )
+nome = input('Digite seu nome : ')
+print('Bem-vindo {} !'.format(nome))
