@@ -19,3 +19,4 @@ café = Cachorro('Café', 'pequeno', 'Caramelo', 'Preto')
 rex.exibir_informacoes()
 alice.exibir_informacoes()
 café.exibir_informacoes()
+
