@@ -1,6 +1,9 @@
-# Escreva um programa que leia um valor e exiba convertido em centímetros e milímetros
+medida = float(input('Uma distância em metros : '))
+km = medida * 0.001
+hm = medida * 0.01
+dan = medida * 0.1
+dm = medida * 10
+cm = medida * 100
+mm = medida * 1000
 
-v = float(input('Digite um valor em metros : '))
-cent = v * 100
-mili = v * 1000
-print(' {} metros são {} centímetros e {} milímetros '.format(v, cent, mili))
+print( 'km = {} \nhm = {} \ndan = {} \ndm = {} \ncm = {} \nmm = {} '.format(km,hm,dan,dm,cm,mm))

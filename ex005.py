@@ -3,4 +3,4 @@
 n1 = int(input('Ditite um número inteiro:'))
 ant = n1 - 1
 suc = n1 + 1
-print('Seu antecessor é {} e seu sucessor é {} '.format(ant, suc))
+print('Analisando o valor {}, seu antecessor é {} e seu sucessor é {} '.format(n1, ant, suc))
