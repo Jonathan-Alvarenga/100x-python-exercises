@@ -1,5 +1,6 @@
 import time
 
+
 # Define nosso decorator
 def calcula_duracao(funcao):
     def wrapper():
@@ -16,10 +17,13 @@ def calcula_duracao(funcao):
 
     return wrapper
     # Decora a função com o decorator
+
+
 @calcula_duracao
 def main():
-  for n in range(0,5):
-    print('Olá, mundo')
+    for n in range(0, 5):
+        print('Olá, mundo')
+
 
 # Executa a função main
 main()
