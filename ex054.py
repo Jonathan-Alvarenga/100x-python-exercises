@@ -6,7 +6,7 @@ import datetime
 totalMaiores = 0
 totalMenores = 0
 for c in range(1,8):
-    nascimento = int(input('ano de nascimento da {}° pessoa :'.format(c)))
+    nascimento = int(input('Ano de nascimento da {}° pessoa :'.format(c)))
     if datetime.date.today().year - nascimento >= 18:
         totalMaiores += 1
     else:
