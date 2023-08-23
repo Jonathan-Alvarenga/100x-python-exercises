@@ -5,7 +5,7 @@
 xnumeros = soma = num = 0
 num = int(input('Digite vários números e use 999 para sair :'))
 while num != 999:
-    soma = soma + num
+    soma += num
     xnumeros += 1
     num = int(input('Digite vários números e use 999 para sair :'))
 print('{} números digitados e a soma foi de {}'.format(xnumeros, soma))
