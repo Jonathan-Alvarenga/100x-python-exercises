@@ -18,7 +18,7 @@ while resp in 'Ss':
             menor = num
     resp = str(input('Quer continuar? [S/N}')).upper().strip()[0]
 média = soma / quant
-print('Voc~e digitou {} números e a média foi {}'.format(quant, média))
+print('Você digitou {} números e a média foi {}'.format(quant, média))
 print('O maior valor foi {} e o menor foi {}'.format(maior, menor))
 
 
